@@ -48,8 +48,9 @@ Before running this application, make sure you have the following installed:
 
 ## Installation
 
-1. Clone the repository
-```bash
+
+```1. Clone the repository
+bash
 git clone https://github.com/Sakeen07/Appointment-Booking-System.git
 cd Appointment-Booking-System
 
