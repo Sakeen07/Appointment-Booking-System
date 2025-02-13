@@ -1,0 +1,196 @@
+div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.portal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    padding: 0 4vh;
+    background-color: gray;
+}
+
+.portal-header-left {
+    display: flex;
+    align-items: center;
+}
+
+.portal-header-left p {
+    padding-left: 2.5vh;
+    font-size: 2.5vh;
+    color: white;
+}
+
+.portal-header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2vh;
+}
+
+.logout-button {
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+  
+.logout-button:hover {
+   background-color: #333;
+}
+
+.portal-body-datepicker {
+    max-width: 360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.MuiPickersLayout-root {
+    display: flex;
+    flex-direction: column;
+}
+  
+.MuiPickersLayout-toolbar {
+    display: flex;
+    justify-content: center !important;
+    padding: 8px 0 !important;
+}
+  
+.MuiTypography-h4,
+.MuiTypography-h5,
+.MuiTypography-h6 {
+    font-size: 2.275rem !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+  
+.MuiPickersCalendarHeader-label {
+    font-size: 0.875rem !important;
+    text-align: center !important;
+}
+  
+.MuiDemoContainer-root {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+  
+.MuiPickersToolbar-content {
+    justify-content: center !important;
+    min-width: 100% !important;
+}
+
+.portal-body-appointments-upcoming,
+.portal-body-appointments-past {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+.new-appointment-button {
+    padding: 0.5rem 0.5rem;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin: 2rem 0;
+}
+
+.new-appointment-button:hover {
+    background-color: #1873cc;
+}
+
+.portal-body-appointments-upcoming {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+
+.portal-body-appointments-past {
+    margin-bottom: 4rem;
+}
+
+.portal-body-appointments-upcoming h1,
+.portal-body-appointments-past h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.portal-body-appointments-upcoming hr,
+.portal-body-appointments-past hr {
+    margin-bottom: 2rem;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+}
+
+.portal-body-appointments-upcoming1,
+.portal-body-appointments-past1 {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 8px;
+    margin: 0 auto 1rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.portal-body-appointments-upcoming1:hover,
+.portal-body-appointments-past1:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portal-body-appointments-upcoming1-left,
+.portal-body-appointments-past1-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.portal-body-appointments-upcoming1-left h2,
+.portal-body-appointments-past1-left h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.portal-body-appointments-upcoming1-left p,
+.portal-body-appointments-past1-left p {
+    margin: 0;
+    color: #666;
+    text-align: left;
+}
+
+.portal-body-appointments-upcoming1-right,
+.portal-body-appointments-past1-right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.new-appointment-button{
+    margin-bottom: 4rem;
+}

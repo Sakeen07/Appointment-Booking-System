@@ -1,0 +1,78 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 0;
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.form-fields .MuiTextField-root {
+    width: 100%;
+}
+
+.MuiInputAdornment-root.MuiInputAdornment-positionEnd {
+    margin-left: auto !important;
+    position: static !important;
+    justify-content: flex-end !important;
+}
+
+.MuiInputBase-root {
+    display: flex !important;
+    align-items: flex-end !important;
+    width: 100% !important;
+}
+
+.MuiInputBase-input {
+    width: 100% !important;
+    padding-right: 8px !important;
+}
+
+.MuiInputAdornment-root .MuiIconButton-root {
+    margin-right: -12px !important;
+    padding: 6px !important;
+}
+
+.signup-form .MuiButton-root {
+    width: 200px;
+    margin-top: 10px;
+}
+
+.signup-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.signup-footer p {
+    margin: 0;
+    color: #666;
+}
+
+h1 {
+    color: #1976d2;
+    margin-bottom: 30px;
+}
+
+.MuiFormHelperText-root {
+    margin-left: 0 !important;
+    font-size: 0.75rem !important;
+}
