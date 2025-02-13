@@ -7,9 +7,6 @@ A full-stack web application for managing appointments built with React and Node
 - [Technologies Used](#technologies-used)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Running the Application](#running-the-application)
-- [Project Structure](#project-structure)
-- [Environment Variables](#environment-variables)
 
 ## Features
 # User Roles
