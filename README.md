@@ -12,26 +12,23 @@ A full-stack web application for managing appointments built with React and Node
 - [Environment Variables](#environment-variables)
 
 ## Features
-User Roles
-• Can view past or upcoming appointments based on the current date.
-• Can modify the appointment schedule.
-• Can delete their own schedule.
+# User Roles
+- Can view past or upcoming appointments based on the current date.
+- Can modify the appointment schedule.
+- Can delete their own schedule.
 
-Admin Roles
-• Can view all users' appointments.
-• Can edit the date and time of an appointment.
-• Can delete any user's appointment.
+# Admin Roles
+- Can view all users' appointments.
+- Can edit the date and time of an appointment.
+- Can delete any user's appointment.
 
-System Functionality
-• The user must log in as either a "User" or an "Admin" to access the portal containing
-appointment details.
-• Both the Admin and User receive a JWT token, which remains valid for one day.
-• The Admin can only modify the date and time of an appointment, while the User can update
-the description and the person's name.
-• Users can only view their own appointments, whereas the Admin has access to all
-appointments.
-• A time slot cannot be booked more than once.
-• Past dates cannot be selected when scheduling an appointment.
+# System Functionality
+- The user must log in as either a "User" or an "Admin" to access the portal containing appointment details.
+- Both the Admin and User receive a JWT token, which remains valid for one day.
+- The Admin can only modify the date and time of an appointment, while the User can update the description and the person's name.
+- Users can only view their own appointments, whereas the Admin has access to all appointments.
+- A time slot cannot be booked more than once.
+- Past dates cannot be selected when scheduling an appointment.
 
 ## Technologies Used
 ### Frontend
@@ -75,7 +72,7 @@ npm start
 # OR if using nodemon
 npm run dev
 
-## Project Structure
+# Project Structure
 
 appointment-booking-system/
 ├── client/                 # Frontend React application
