@@ -60,7 +60,7 @@ export const login = async (req, res) => {
 
         // Create token with user ID
         const token = jwt.sign(
-            { id: user.UserID }, // Make sure this matches what we check in middleware
+            { id: user.UserID },
             process.env.JWT_SECRET_KEY,
             { expiresIn: '1d' }
         );
